@@ -1,3 +1,21 @@
-.carousel-item{
-    background-image:;
+.carousel-item img{
+    object-fit: cover;
+    height: 100vh;
+}
+@media (max-width: 768px) {
+    .carousel-item{
+        object-fit: cover;
+    }
+    .carousel-item img{
+        height: 50vh !important;
+    }
+    .carousel-caption{
+        padding: 10px;
+    }
+    .carousel-caption h4{
+        font-size: 1.5rem;
+    }
+    .carousel-caption p{
+        font-size: 0.9rem;
+    }
 }
