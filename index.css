@@ -2,7 +2,7 @@
     object-fit: cover;
     height: 100vh;
 }
-@media (max-width: 768px) {
+@media (max-width: 586px) {
     .carousel-item{
         object-fit: cover;
     }
@@ -18,4 +18,7 @@
     .carousel-caption p{
         font-size: 0.9rem;
     }
+}
+.bg-success-lite{
+    background:linear-gradient(10deg,rgb(129, 129, 165),rgb(176, 159, 188));
 }

@@ -10,7 +10,20 @@
     <link rel="stylesheet" href="./css/font-awesome-6.7.2.css">
     <script src="https://kit.fontawesome.com/b480300491.js" crossorigin="anonymous"></script>
 
-
+    <style>
+        .bg-teal-light{
+            background-color: rgb(rgb(236, 222, 222), rgb(226, 241, 226), rgb(200, 200, 215));
+        }
+        #c_body{
+            background-color: rgb(184, 209, 209);
+        }
+        .c_head{
+            background-color: rgb(202, 144, 174);
+        }
+        .bg-light-pale{
+            background-color: rgb(239, 229, 117);
+        }
+    </style>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -28,10 +41,10 @@
        <div class="collapse navbar-collapse" id="travelnav">
         <ul class="navbar-nav m-auto">
             <li class="nav-item text-white">
-                <a href="#" class="nav-link text-white">Home </a>
+                <a href="http://127.0.0.1:3002/Travel_yari/index.html" class="nav-link text-white">Home </a>
             </li>
             <li class="nav-item ">
-                <a href="./vspots.html" class="nav-link text-white">Visiting spots</a>
+                <a href="#visiting_spots" class="nav-link text-white">Visiting spots</a>
             </li>
             <li class="nav-item">
                 <a href="./gallary.html" class="nav-link text-white">Gallary</a>
@@ -46,6 +59,7 @@
        </div>
     </div>
     </nav>
+    </div>
     <div class="container-fluid mt-3">
         <div class="carousel slide" id="travel" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -88,11 +102,275 @@
                 </button>
             </div>
         </div>
-    </div>
-    <div class="container" id="vspots">
-        <h2></h2>
-    </div>
-</div>
+        <div class="container-fluid mt-1  bg-success-lite">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-3 text-center">Search your destination here</h4>
+                    <p class="lead p-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempore aperiam dolorem tempora maiores, necessitatibus veniam officiis molestiae animi, excepturi dicta ratione nihil nulla odio ipsam error unde omnis saepe!</p>
+                    <div class="col-md-6 text-center h4">
+                        <input type="search" placeholder="paris">
+                        <input type="submit" value="search " class="btn btn-success text-white ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary text-white" id="search">
+            <div class="row">
+                
+                   <div class="col-md-3 p-3 ">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-solid fa-location-arrow fa-4x"></i></p>
+
+                            <h1 class="text-center">
+                                locations
+                            </h1>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quasi suscipit illum expedita alias impedit optio accusamus fugiat aut unde.</p>
+                        </div>
+                    
+                    </div>
+                   </div>
+                   <div class="col-md-3 p-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-solid fa-plane-departure fa-4x"></i></p>
+                            <h1 class="text-center">
+                                pick up location
+                            </h1>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quasi suscipit illum expedita alias impedit optio accusamus fugiat aut unde.</p>
+                        </div>
+                    
+                    </div>
+                   </div>
+                   <div class="col-md-3 p-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-solid fa-building fa-4x"></i></p>
+                            <h1 class="text-center">
+                                Shop travel 
+                            </h1>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quasi suscipit illum expedita alias impedit optio accusamus fugiat aut unde.</p>
+                        </div>
+                    
+                    </div>
+                   </div>
+                   <div class="col-md-3 p-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="text-center"><i class="fa-solid fa-plane-arrival fa-4x"></i></p>
+                            <h1 class="text-center">
+                                drop  location
+                            </h1>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quasi suscipit illum expedita alias impedit optio accusamus fugiat aut unde.</p>
+                        </div>
+                    
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>  
+        <div class="container-fluid " id="Visiting_spots">
+            <div class="row text-center">
+                <h2 class="display-3">
+                    <span class="text-success">popular</span>
+                    <span class="text-primary">Places</span>
+                </h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos provident quae ducimus accusantium, nisi ad dolor nemo accusamus voluptatum at?</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assests/kerala.png" alt="kerala" class="img-fluid">
+                        <div class="card-body text-center">
+                            <div class="card-title h2 text-secondary">Kerala </div>
+                            <div class="card-text">
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nobis quisquam iure dolorem ducimus consectetur, dolore libero. Nemo, vitae vero?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assests/popular1.png" alt="maldives" class="img-fluid">
+                        <div class="card-body text-center">
+                            <div class="card-title h2 text-secondary">maldives </div>
+                            <div class="card-text">
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nobis quisquam iure dolorem ducimus consectetur, dolore libero. Nemo, vitae vero?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assests/popular3.png" alt="Goa" class="img-fluid">
+                        <div class="card-body text-center">
+                            <div class="card-title h2 text-secondary">Goa</div>
+                            <div class="card-text">
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nobis quisquam iure dolorem ducimus consectetur, dolore libero. Nemo, vitae vero?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-4">
+            <p class="btn btn-primary btn-lg p-3">Book now</p>
+            </div>
+        </div>
+        <section>
+            <div class="container-fluid" id="gallary">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1 class="display-3">
+                            <span class="text-primary">Photo </span>
+                            <span class="text-success">Gallery
+                            </span>
+                        </h1>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam impedit quae voluptate quis. Esse ratione illo, similique dicta excepturi voluptatibus.</p>
+                    </div>
+                </div>
+                <div class="row m-2">
+                    <div class="col-md-3">
+                        <img src="./assests/image1.png" class="img-fluid" alt="image1">
+                    </div>
+                    <div class="col-md-3" >
+                        <img src="./assests/image2.png" class="img-fluid" alt="image2">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./assests/image3.png" class="img-fluid" alt="image3">
+                    </div>                    
+                    <div class="col-md-3">
+                        <img src="./assests/image4.png" class="img-fluid" alt="image4">
+                    </div>
+                </div>
+                <div class="row m-2">
+                    <div class="col-md-3">
+                        <img src="./assests/image7.png" class="img-fluid" alt="image5">
+                    </div>              
+                    <div class="col-md-3">
+                        <img src="./assests/image6.png" class="img-fluid" alt="image6">
+                    </div>                    
+                    <div class="col-md-3">
+                        <img src="./assests/image7.png" class="img-fluid" alt="image7">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./assests/image8.png" class="img-fluid" alt="image8">
+                    </div>
+                </div>
+                <div class="row m-2" >
+                    <div class="col-md-3 ">
+                        <img src="./assests/image9.png" class="img-fluid" alt="image1">
+                    </div>
+                    <div class="col-md-3 ">
+                        <img src="./assests/image10.png" class="img-fluid" alt="image2">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./assests/image11.png" class="img-fluid" alt="image3">
+                    </div>                    
+                    <div class="col-md-3">
+                        <img src="./assests/image12.png" class="img-fluid" alt="image4">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-3" id="contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card text-center  text-white ">
+                            <div class="card-body bg-success ">
+
+                                <i class="fa-solid fa-envelope fa-4x "></i>
+                                <h1>contact Booking form</h1>
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet consequuntur consectetur atque animi repellendus asperiores molestias unde praesentium aut cumque esse aliquam perferendis magnam aperiam recusandae expedita nisi optio exercitationem aliquid ut, autem voluptatem laboriosam sed. Magnam, illum tenetur. Culpa minus saepe corporis delectus suscipit, quasi nam! Blanditiis eius rerum illo sunt accusantium, distinctio et non dicta, sed maxime ut.</p>
+                            </div>
+                            <div class="card-footer">
+                               <h3 class="text-black">locations </h3>
+                               <ul class="list-group">
+                                <li class="list-group-item">
+                                    karakmbadi,tirupati
+                                </li>
+                                <li class="list-group-item">
+                                    cross,piler
+                                </li>
+                                <li class="list-group-item">
+                                   busstand,nellore
+                                </li><li class="list-group-item">
+                                  mangalam,tirupati
+                                </li>
+
+                               </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-teal text-center c_head" >
+                                <h3>contact form</h3>
+                            </div>
+                            <div class="card-body p-3 " id="c_body">
+                                <form action="">
+                                    <div class="form-group p-3">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                    <div class="form-group p-3">
+                                        <input type="tel" class="form-control" placeholder="Mobile no">
+                                    </div>
+                                    <div class="form-group p-3">
+                                        <input type="email" class="form-control" placeholder="email id">
+                                    </div>
+                                    <div class="form-group p-3">
+                                        <input type="text" class="form-control" placeholder="Loved destination">
+                                    </div>
+                                    <div class="p-3">
+                                        <textarea name="" id="" class=" form-control">Message</textarea>
+
+                                    </div>
+                                    <div class="text-center p-4">
+                                        <p class="btn btn-warning text-white">Book now</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" m-1 p-3">
+            <div class="container-fluid bg-success-lite">
+                <div class="row text-center">
+                    <div class="col">
+                    <h1>Follow travel yaari</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laborum corporis eos quam eligendi nobis blanditiis soluta cupiditate illum incidunt?</p>
+                    <i class="fa-brands fa-facebook fa-4x m-3"></i>
+                    <i class="fa-brands fa-whatsapp fa-4x m-3"></i>
+                    <i class="fa-brands fa-twitter fa-4x m-3"></i>
+                    <h6 class="h5">Contact : +91 43444534234</h6>
+                </div>
+                </div>
+
+            </div>
+        </section>
+        <footer class="p-3 text-center bg-light-pale">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h3>copyright &copy; 2025 , travel yaari</h3>
+                        <h6>All rights reserved by</h6>
+                        <h6>Develelopment and authorized by Hemanth Reddy</h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+   
+    
+   
+
+
+
 
     
 <script src="./js/bootstrap.js"></script>     
